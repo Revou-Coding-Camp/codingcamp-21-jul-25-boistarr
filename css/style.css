@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: #0b1120;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(93, 100, 255, 0.3);
+  width: 500px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #cbd5e1;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.input-section input[type="text"],
+.input-section input[type="date"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  flex: 1;
+  background-color: #334155;
+  color: #fff;
+}
+
+.input-section button {
+  background-color: #818cf8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.button-group button {
+  background-color: #475569;
+  color: #cbd5e1;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #0f172a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #1e293b;
+  color: #94a3b8;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #334155;
+}
